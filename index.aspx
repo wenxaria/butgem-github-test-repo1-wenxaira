@@ -24,6 +24,7 @@
                 <tr>
                     <td colspan="3">
                         <asp:Label ID="Label1" runat="server" Font-Size="Large" Text="Kayıt Ekranı"></asp:Label>
+                    &nbsp;<asp:Label ID="Label4" runat="server" ForeColor="#CC0000" Text="*Yeni"></asp:Label>
                     </td>
                 </tr>
                 <tr>
