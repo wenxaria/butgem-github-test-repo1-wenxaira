@@ -14,7 +14,7 @@ namespace butgem_github_test_repo1
             string gelenad = Request.QueryString[0];
             string gelensoyad = Request.QueryString[1];
             
-            kayit.InnerHtml=("Adınız: " + gelenad + "<br>" + gelensoyad);
+            kayit.InnerHtml=("Adınız: " + gelenad + "<br>" + "Soyadınız: " + gelensoyad);
         }
     }
 }
