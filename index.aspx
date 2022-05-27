@@ -24,7 +24,8 @@
                 <tr>
                     <td colspan="3">
                         <asp:Label ID="Label1" runat="server" Font-Size="Large" Text="Kayıt Ekranı"></asp:Label>
-                    &nbsp;</td>
+                    &nbsp;<asp:Label ID="Label4" runat="server" ForeColor="#FF99FF"></asp:Label>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">
@@ -49,6 +50,7 @@
                     <td class="auto-style3">&nbsp;</td>
                     <td>
                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Giriş" />
+                        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click1" Text="Button" />
                     </td>
                 </tr>
             </table>

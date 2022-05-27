@@ -13,8 +13,7 @@ namespace butgem_github_test_repo1
         protected void Page_Load(object sender, EventArgs e)
         {
             
-        }
-
+        }      
         protected void Button1_Click(object sender, EventArgs e)
         {
             
@@ -23,6 +22,10 @@ namespace butgem_github_test_repo1
             soyad = TextBox2.Text;
             
             Response.Redirect("kayitsayfa.aspx?ad=" + ad + "&soyad=" + soyad) ;
+        }
+        protected void Button2_Click1(object sender, EventArgs e)
+        {
+            Label4.Text = "wenxaria ekledi";
         }
     }
 }
