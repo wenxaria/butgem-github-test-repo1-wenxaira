@@ -9,7 +9,7 @@ namespace butgem_github_test_repo1
 {
     public partial class index : System.Web.UI.Page
     {
-        string ad;
+        string ad,soyad;
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -19,8 +19,10 @@ namespace butgem_github_test_repo1
         {
             
             ad = TextBox1.Text;
+
+            soyad = TextBox2.Text;
             
-            Response.Redirect("kayitsayfa.aspx?ad=" + ad) ;
+            Response.Redirect("kayitsayfa.aspx?ad=" + ad + "&soyad=" + soyad) ;
         }
     }
 }

@@ -36,6 +36,15 @@
                     </td>
                 </tr>
                 <tr>
+                    <td class="auto-style2">
+                        <asp:Label ID="Label3" runat="server" Text="Soyad"></asp:Label>
+                    </td>
+                    <td class="auto-style3">:</td>
+                    <td>
+                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
                     <td>

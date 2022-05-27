@@ -12,8 +12,9 @@ namespace butgem_github_test_repo1
         protected void Page_Load(object sender, EventArgs e)
         {
             string gelenad = Request.QueryString[0];
+            string gelensoyad = Request.QueryString[1];
             
-            kayit.InnerHtml=("Adınız: " + gelenad);
+            kayit.InnerHtml=("Adınız: " + gelenad + "<br>" + gelensoyad);
         }
     }
 }
